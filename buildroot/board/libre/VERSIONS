@@ -1,0 +1,5 @@
+device-fw v0.38-dirty
+hdl dev_prj_2018_r1-1854-g1978d
+buildroot 2022.02.3-adi-5712-gf70f4a
+linux adi-xilinx-2020.1-175882-ge14e351-dirty
+u-boot-xlnx v0.20-PlutoSDR-25-g90401c-dirty
