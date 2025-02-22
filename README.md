@@ -16,8 +16,11 @@ interpolation/decimation. SATSAGEN reported does not work properly with this fir
 To make GPIO outputs working please login to LibreSDR console and create autostart file /mnt/jffs2/autorun.sh like this, then reboot.
 
 #!/bin/bash
+
 ash /sbin/banddata.sh &
+
 ash /sbin/watchconsoletx.sh &
+
 
 There is template file exists /sbin/autorun_template.sh for lazy ) 
 
