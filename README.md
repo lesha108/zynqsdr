@@ -13,6 +13,11 @@ This firmware modified:
 Reference HDL desing provides 40MHz sync using PPS, 10MHz ports unlike hz12opensource version, but miss HDL
 interpolation/decimation. SATSAGEN reported does not work properly with this firmware.
 
+Some more features added to this FW:
+1. LED heartbeat
+2. DFU button on correct port
+3. Boot autostart script like Pluto version
+
 To make GPIO outputs working please login to LibreSDR console and create autostart file /mnt/jffs2/autorun.sh like this, then reboot.
 
 #!/bin/bash
